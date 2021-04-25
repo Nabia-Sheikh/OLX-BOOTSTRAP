@@ -94,12 +94,14 @@ input:focus{
 
     
     @media screen and (max-width: 767px) {
+           
             .logo{
                     margin-left: 75px;
             }
            
                       #pakistan{
                     display: block;
+                    width: 100%;
             }
             .onMobile{
                     display: block;
@@ -199,11 +201,9 @@ input:focus{
         #pakistan{
                 margin: 10px auto 2px auto; 
         }
-        #searchbox{
-               margin-right: 184px;
-        }
+      
         #searchbtn{
-               width: 85%;
+               width: 78%;
         }
         .ghyb{
                 display: none;
@@ -214,14 +214,6 @@ input:focus{
 
     /* Dropdown icon */ 
 
-    .selectdiv:after {
-          content: url(image/dropicon.svg);
-          right: -150px;
-          top: -84px;
-          padding: 15px 0px 0px 8px;
-          position: absolute;
-        
-    }
 
     .padd-left:after{
          content: url(image/heart-shape-outline.svg);
@@ -426,13 +418,20 @@ input:focus{
 
  .navmobile{
              position: fixed;
-
              top: 0;
              left: 0;
              width: 100%;
-             height: var(--navbar-height);
+             /* height: var(--navbar-height); */
              /* background-color: var(--navbar-background-color); */
              /* font-family: var(--navbar-font-family); */
              z-index: 9999;
  }
 
+.selectdiv:after {
+        content: url(image/dropicon.svg);
+        right: 13px;
+        top: -5px;
+        padding: 15px 0px 0px 8px;
+        position: absolute;
+
+}
